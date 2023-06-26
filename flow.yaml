@@ -1,0 +1,11 @@
+# flow.yaml
+
+appId: "com.google.android.youtube"
+---
+- launchApp
+- assertVisible : "Home"
+- assertVisible : "YouTube"
+- tapOn: "Search"
+- inputText : "Maestro"
+- pressKey : "Enter"
+
